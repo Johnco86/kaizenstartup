@@ -1,0 +1,29 @@
+.footer {
+  background: #F4F4F4;
+  height: 100px;
+  color: rgba(0,0,0,0.3);
+}
+.logos-partners {
+  background-color: #F1F1F1;
+  height: 100px;
+  // min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  img {
+    height: 50px;
+  }
+}
+.title-footer-container {
+  height: 70px;
+  position: relative;
+}
+.title-footer-text {
+  position: absolute;
+  top: 15%
+}
+.container{
+  width: -webkit-fill-available;
+}
