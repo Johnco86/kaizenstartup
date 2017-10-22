@@ -15,13 +15,29 @@ h4 {
   height: 180px;
 }
 .logo-case {
-  height: 100px;
+  height: 150px;
+  border: 1px solid white;
+  border-radius: 15%;
+  padding: 25px;
+  background: #f1f1f1;
 }
 
 p {
-  font-weight: light;
+  font-weight: lighter;
   font-size: 14px;
 }
 body {
   background-color: white;
+}
+.logo-case-felix {
+  height: 150px;
+  width: 150px;
+  border: 1px solid white;
+  border-radius: 15%;
+  padding: 40px 15px;
+  background: #f1f1f1
+}
+.custom-container {
+  margin-bottom: 25px;
+  margin-top: 25px;
 }
