@@ -38,13 +38,15 @@ h5 {
 .banner {
   color: white;
   text-align: center;
-  max-width: 100%;
+  width: 100%;
   height: calc(100vh - 70px);
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  img {
+    background-size: cover !important;
+    height: calc(100vh - 70px);
+    width: 100%;
+  }
 }
 
 .logo-case-felix {
@@ -78,4 +80,12 @@ h5 {
   background-color: rgba(101,234,255,0.6);
   padding: 3px;
   margin-left: 10px;
+}
+@media screen and (max-width: 768px) {
+ .logo-resize {
+    height: 100px;
+  }
+  .btn-display-text {
+    margin-bottom: 20px;
+  }
 }

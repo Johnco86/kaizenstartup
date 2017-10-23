@@ -27,3 +27,16 @@
 .container{
   width: -webkit-fill-available;
 }
+@media screen and (max-width: 768px) {
+  .logos-partners {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100px;
+    img{
+      height: 25px;
+    }
+  }
+  .title-footer-container{
+    height: 100px;
+  }
+}
