@@ -15,6 +15,12 @@
   height: 50px;
 }
 
+@media screen and (max-width: 768px) {
+  .navbar-wagon-brand img {
+    height: 30px;
+  }
+}
+
 /* User Avatar */
 .navbar-wagon .avatar {
   height: 35px;
@@ -41,7 +47,11 @@
   font-size: 14px;
 }
 .navbar-wagon-link:hover {
-  color: #da552f;
+  color: #1F006D;
+  text-decoration: none;
+}
+.navbar-wagon-link:focus {
+  color: #1F006D;
   text-decoration: none;
 }
 
@@ -74,4 +84,7 @@
   transform: rotate(45deg);
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
+}
+.dropdown-menu {
+  min-width: 200px !important;
 }
