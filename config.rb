@@ -7,6 +7,10 @@ activate :sprockets
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
+page "/services.html", :layout => "lightweight"
+page "/cases.html", :layout => "lightweight"
+page "/environment.html", :layout => "lightweight"
+page "/contact.html", :layout => "lightweight"
 
 configure :build do
   activate :minify_css
