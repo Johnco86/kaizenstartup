@@ -16,6 +16,7 @@ configure :build do
   activate :minify_css
   activate :minify_javascript
   activate :asset_hash
+  activate :directory_indexes
   activate :relative_assets
   set :relative_links, true
 end
@@ -26,5 +27,4 @@ activate :deploy do |deploy|
 end
 
 # Use “pretty” URLs (without the `.html` suffix)
-activate :directory_indexes
 

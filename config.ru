@@ -8,7 +8,7 @@ use Rack::Head
 use Rack::TryStatic,
     :root => "build",
     :urls => %w[/],
-    :try => ['.html.erb']
+    :try => ['.html', 'index.html', '/index.html']
 
 # Serve a 404 page if all else fails
 run lambda { |env|
@@ -21,5 +21,3 @@ run lambda { |env|
     File.open("build/404/index.html", File::RDONLY)
   ]
 }
-
-# run Rack::File.new './build'
